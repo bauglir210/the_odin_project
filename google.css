@@ -1,0 +1,41 @@
+body
+{
+ margin: 0;
+}
+
+.container
+{
+width:100%
+top :0
+position:fixed;
+}           
+nav{
+ text-align: right;
+    
+}
+
+.center{
+text-align: center;
+}
+
+ul{ 
+   
+   list-style-type: none;
+   margin: 0;
+   padding:0;
+   overflow: hidden;
+  
+ }
+
+li{
+  display:inline-block;
+
+}
+
+li a{
+     display: block;
+     color: black;
+     text-align: center;
+     text-decoration: none;
+     padding-right: 10px;
+}
