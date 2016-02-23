@@ -10,6 +10,7 @@ width:100%
 top :0
 position:fixed;
 font-size: 15px;
+margin-top: 10px;
 
 }
           
@@ -116,12 +117,33 @@ border-radius: 50%;
 background-color: #737373;
 height: 20px;
 width: 20px;
+margin-right: 10px;
+
 }
 
 .circle img{
 height: 14px;
 width: 14px;
+padding-left: 3px;
+padding-top: 2px;
+display:block;
+
 }
+
+.user{
+border-radius: 50%;
+margin-right: 25px;
+overflow:hidden;
+
+}
+
+.user img{
+height:32px;
+width:32px;
+
+display:block;
+
+} 
 
 
 
