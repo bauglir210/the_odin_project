@@ -6,11 +6,11 @@ font-family: arial,sans-serif;
 
 .container
 {
-width:100%
-top :0
+width:100%;
+top :0;
 position:fixed;
 font-size: 15px;
-margin-top: 10px;
+margin-top: 15px;
 
 }
           
@@ -20,7 +20,7 @@ text-align: right;
 
 .center{
 text-align: center;
-margin-top: 75px;
+margin-top: 150px;
 }
 
 ul{ 
@@ -119,6 +119,10 @@ height: 20px;
 width: 20px;
 margin-right: 10px;
 
+}
+
+.circle:hover{
+background-color: black;
 }
 
 .circle img{
