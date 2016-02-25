@@ -1,93 +1,128 @@
-body
+.body
 {
-		margin: 0;
-		font-family: arial,sans-serif;
+	margin: 0;
+	font-family: arial,sans-serif;
 }
 
 .topbar
 {
-		width:100%;
-		top :0;
-		position:fixed;
-		font-size: 15px;
-		height:60px;
-		background-color: #F1F1F1;
+	width:100%;
+	top :0;
+	position:fixed;
+	font-size: 15px;
+	border-bottom: 1px solid #E5E5E5;
+	background-color: #f2f2f2;
+
+		
+}
+.topbarleft
+{
+	width: 80%;
+	float: left;
+	
+
+
+}
+
+.topbarright
+{
+	width: 20%;
+	text-align: right;
+	float:right;
+	margin-top: 10px;
 }
 
 ul
 { 
-		list-style-type: none;
-		margin: 0;
-		padding:0;
-		overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
 }
 
 li
 {
-		display:inline-block;
-		vertical-align: middle;
+	display:inline-block;
+	vertical-align: middle;
+}
+
+li a
+{
+	display: block;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	padding-right: 10px;	
+}
+
+.logo{
+	width:12%;
+	overflow:hidden;
+	float:left;
+	margin-top: 10px;
+
+}
+
+.search
+{
+	width:65%;
+	float:left;
+	margin-top: 5px;
+}
+#search-box
+{
+	width: 100%;
+	height: 30px;
+
 }
 
 .mag
 {
-		background-color: #4285f4;
+	width:4%;
+	background-color: #4285F4;
+	float:left;
+	border-radius: 5%;
+	height: 39px;
+	margin-top: 5px;
 }
-
-.topbar li a
+.circle
 {
-		display: block;
-		color: black;
-		text-align: center;
-		text-decoration: none;
-		padding-right: 10px;	
+	border-radius: 50%;
+	background-color: #737373;
+	height: 20px;
+	width: 20px;
+	margin-right: 10px;
 }
 
-.circle{
-		border-radius: 50%;
-		background-color: #737373;
-		height: 20px;
-		width: 20px;
-		margin-right: 10px;
-}
-
-.circle:hover{
+.circle:hover
+{
 	background-color: black;
 }
 
 .circle img
 {
-		height: 14px;
-		width: 14px;
-		padding-left: 3px;
-		padding-top: 2px;
-		display:block;
+	height: 14px;
+	width: 14px;
+	padding-left: 3px;
+	padding-top: 2px;
+	display:block;
 }
 
 .user
 {
-		border-radius: 50%;
-		margin-right: 25px;
-		overflow:hidden;
+	border-radius: 50%;
+	margin-right: 25px;
+	overflow:hidden;
 }
 
 .user img
 {
-		height:32px;
-		width:32px;
-		display:block;
+	height:32px;
+	width:32px;
+	display:block;
 } 
 
 li a:hover
 {
-		text-decoration: underline;
-}
-
-.topbarleft
-{
-		float:left;
-}
-
-.topbarright
-{
-		float:right;
+	text-decoration: underline;
 }
